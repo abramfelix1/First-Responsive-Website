@@ -1,9 +1,11 @@
 :root {
-  --clr-primary-400: hsl(12, 88%, 59%);
+  --clr-accent-400: hsl(12, 88%, 59%);
   --clr-primary-300: hsl(13, 100%, 96%);
 
-  --color-neutral-100: hsl(228, 39%, 23%);
-  --color-neutral-900: hsl(0, 0%, 0%);
+  --clr-primary-400: hsl(228,39%,23%);
+
+  --color-neutral-900: hsl(228, 12%, 13%);
+  --color-neutral-100: hsl(0, 0%, 100%);
 
   --ff-primary: 'Be Vietnam Pro', sans-serif;
   --ff-body: var(--ff-primary);
@@ -129,7 +131,7 @@ svg {
 .bg-accent-100 {
   background-color: var(--clr-accent-100)
 }
-.bg-neutral-100 {
+.bg-neutral-900 {
   background-color: var(--color-neutral-900)
 }
 
